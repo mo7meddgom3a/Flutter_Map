@@ -6,7 +6,7 @@ import 'package:shops/simple_bloc_observer.dart';
 import 'core/routing_service.dart';
 
 void main() async {
-  Bloc.observer = SimpleBlocObserver();
+  // Bloc.observer = SimpleBlocObserver();
   runApp(ShopLocations());
 }
 

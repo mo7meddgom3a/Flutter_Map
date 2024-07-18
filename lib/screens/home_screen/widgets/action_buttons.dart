@@ -16,7 +16,7 @@ class ActionButtons extends StatelessWidget {
           onPressed: cubit.findRider,
           style: ElevatedButton.styleFrom(
             backgroundColor: Colors.blue,
-            padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
           ),
           child: const Text('Find Rider', style: TextStyle(color: Colors.white)),
         ),
@@ -24,7 +24,7 @@ class ActionButtons extends StatelessWidget {
           onPressed: cubit.clearRider,
           style: ElevatedButton.styleFrom(
             backgroundColor: Colors.blue,
-            padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
           ),
           child: const Text('Clear Rider', style: TextStyle(color: Colors.white)),
         ),
